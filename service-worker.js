@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Blitzschlag/precache-manifest.8432f3c671b975f1a9ae24cf439497de.js"
+  "/Blitzschlag/precache-manifest.41e293b9ac3e0c0f85b4f6ae74bc740f.js"
 );
 
 workbox.clientsClaim();

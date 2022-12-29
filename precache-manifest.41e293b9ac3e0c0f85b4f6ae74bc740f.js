@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "687882f1759a3c39b22d",
+    "revision": "ad6f90cb55c8df9ff54a",
     "url": "/Blitzschlag/static/css/main.777d26d6.chunk.css"
   },
   {
-    "revision": "687882f1759a3c39b22d",
-    "url": "/Blitzschlag/static/js/main.e096b346.chunk.js"
+    "revision": "ad6f90cb55c8df9ff54a",
+    "url": "/Blitzschlag/static/js/main.9e8a1610.chunk.js"
   },
   {
     "revision": "4d92989ed4b756c42f95",
     "url": "/Blitzschlag/static/js/runtime~main.56fb47a0.js"
   },
   {
-    "revision": "4a06b1c2fcb7792a4f79",
-    "url": "/Blitzschlag/static/js/2.85d82fb9.chunk.js"
+    "revision": "8786174f11528476feb6",
+    "url": "/Blitzschlag/static/js/2.53919eac.chunk.js"
   },
   {
     "revision": "8ca5694fab467753acffcb2fc5d5c744",
@@ -28,20 +28,20 @@ self.__precacheManifest = [
     "url": "/Blitzschlag/static/media/Blitz_Logo_23.bc282e47.png"
   },
   {
-    "revision": "81b4bee0b83158e598fd11c5c3378cc4",
-    "url": "/Blitzschlag/static/media/landingpg3-tree.81b4bee0.png"
-  },
-  {
     "revision": "bfda78dc6d4997bf3679e41aebe10d5a",
     "url": "/Blitzschlag/static/media/landingpg3.bfda78dc.png"
   },
   {
-    "revision": "408a25ce73536f33ec944549d992a9fe",
-    "url": "/Blitzschlag/static/media/landinngpg2-icon.408a25ce.png"
+    "revision": "81b4bee0b83158e598fd11c5c3378cc4",
+    "url": "/Blitzschlag/static/media/landingpg3-tree.81b4bee0.png"
   },
   {
     "revision": "07dc176261f355005ba4e0d0a978c555",
     "url": "/Blitzschlag/static/media/landingpg2-bg.07dc1762.png"
+  },
+  {
+    "revision": "408a25ce73536f33ec944549d992a9fe",
+    "url": "/Blitzschlag/static/media/landinngpg2-icon.408a25ce.png"
   },
   {
     "revision": "b7232b90d119cff412f5a484fce1544e",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/Blitzschlag/static/media/concbg.6e0b9483.webp"
   },
   {
-    "revision": "c8f462d6edb58acc935656ae990ee7a3",
+    "revision": "fb9f1bfc6d31067d4b41beb555ee276b",
     "url": "/Blitzschlag/index.html"
   }
 ];
