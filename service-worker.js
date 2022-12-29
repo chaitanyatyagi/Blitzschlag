@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/chaitanyatyagi/precache-manifest.97dd11590579580333845ae0b2f6a538.js"
+  "/chaitanyatyagi/precache-manifest.6e891ef0fa1aa32acaa5cb5a41f6c6da.js"
 );
 
 workbox.clientsClaim();

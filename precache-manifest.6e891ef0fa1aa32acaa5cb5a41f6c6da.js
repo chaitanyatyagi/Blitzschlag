@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d37b3c63dc91c77e7c9b",
-    "url": "/chaitanyatyagi/static/css/main.21f668b9.chunk.css"
+    "revision": "1f6cc18a798296cb0c5f",
+    "url": "/chaitanyatyagi/static/css/main.49cc656b.chunk.css"
   },
   {
-    "revision": "d37b3c63dc91c77e7c9b",
-    "url": "/chaitanyatyagi/static/js/main.9e8a1610.chunk.js"
+    "revision": "1f6cc18a798296cb0c5f",
+    "url": "/chaitanyatyagi/static/js/main.f22a8450.chunk.js"
   },
   {
     "revision": "46f2823e4f5982cef131",
     "url": "/chaitanyatyagi/static/js/runtime~main.7d1ed119.js"
   },
   {
-    "revision": "8786174f11528476feb6",
-    "url": "/chaitanyatyagi/static/js/2.53919eac.chunk.js"
+    "revision": "249dedb4e7152eee08a6",
+    "url": "/chaitanyatyagi/static/js/2.e739b825.chunk.js"
   },
   {
     "revision": "8ca5694fab467753acffcb2fc5d5c744",
@@ -36,24 +36,24 @@ self.__precacheManifest = [
     "url": "/chaitanyatyagi/static/media/landingpg3-tree.81b4bee0.png"
   },
   {
-    "revision": "408a25ce73536f33ec944549d992a9fe",
-    "url": "/chaitanyatyagi/static/media/landinngpg2-icon.408a25ce.png"
-  },
-  {
     "revision": "07dc176261f355005ba4e0d0a978c555",
     "url": "/chaitanyatyagi/static/media/landingpg2-bg.07dc1762.png"
+  },
+  {
+    "revision": "408a25ce73536f33ec944549d992a9fe",
+    "url": "/chaitanyatyagi/static/media/landinngpg2-icon.408a25ce.png"
   },
   {
     "revision": "b7232b90d119cff412f5a484fce1544e",
     "url": "/chaitanyatyagi/static/media/landingpg4-right.b7232b90.png"
   },
   {
-    "revision": "5d649a02254548c99e454667d0252f3d",
-    "url": "/chaitanyatyagi/static/media/landingpg1.5d649a02.png"
-  },
-  {
     "revision": "766af44e8b595d8283e3a0b9ede6fe16",
     "url": "/chaitanyatyagi/static/media/landingpg4-left.766af44e.png"
+  },
+  {
+    "revision": "5d649a02254548c99e454667d0252f3d",
+    "url": "/chaitanyatyagi/static/media/landingpg1.5d649a02.png"
   },
   {
     "revision": "162aac6220e02ca3f7faf425c35fe92c",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/chaitanyatyagi/static/media/concbg.6e0b9483.webp"
   },
   {
-    "revision": "c8d9c891d0686dcb89298839992639f4",
+    "revision": "b6e11d19fe469422dd6fe41de6e81a47",
     "url": "/chaitanyatyagi/index.html"
   }
 ];
