@@ -24,24 +24,24 @@ self.__precacheManifest = [
     "url": "/chaitanyatyagi/static/media/IMG-8305.8a4e18fb.PNG"
   },
   {
-    "revision": "bfda78dc6d4997bf3679e41aebe10d5a",
-    "url": "/chaitanyatyagi/static/media/landingpg3.bfda78dc.png"
-  },
-  {
     "revision": "bc282e47bd40725e25d2d964eeb6b5d9",
     "url": "/chaitanyatyagi/static/media/Blitz_Logo_23.bc282e47.png"
+  },
+  {
+    "revision": "bfda78dc6d4997bf3679e41aebe10d5a",
+    "url": "/chaitanyatyagi/static/media/landingpg3.bfda78dc.png"
   },
   {
     "revision": "81b4bee0b83158e598fd11c5c3378cc4",
     "url": "/chaitanyatyagi/static/media/landingpg3-tree.81b4bee0.png"
   },
   {
-    "revision": "07dc176261f355005ba4e0d0a978c555",
-    "url": "/chaitanyatyagi/static/media/landingpg2-bg.07dc1762.png"
-  },
-  {
     "revision": "408a25ce73536f33ec944549d992a9fe",
     "url": "/chaitanyatyagi/static/media/landinngpg2-icon.408a25ce.png"
+  },
+  {
+    "revision": "07dc176261f355005ba4e0d0a978c555",
+    "url": "/chaitanyatyagi/static/media/landingpg2-bg.07dc1762.png"
   },
   {
     "revision": "b7232b90d119cff412f5a484fce1544e",
