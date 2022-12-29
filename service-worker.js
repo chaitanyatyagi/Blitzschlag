@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Blitzschlag/precache-manifest.41e293b9ac3e0c0f85b4f6ae74bc740f.js"
+  "/chaitanyatyagi/precache-manifest.4a805b636ed8719a4cfb64e9f8d5566b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Blitzschlag/index.html", {
+workbox.routing.registerNavigationRoute("/chaitanyatyagi/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
