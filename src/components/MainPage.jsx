@@ -16,7 +16,9 @@ function MainPage() {
         <div className="mainpage">
             <Navbar />
             <section className="landingPg1" data-aos='fade-up-right' ref={landingPg1}>
-                <div className="landingPg1ins"></div>
+                <div className="landingPg1ins">
+                    <img src="contimg/Blitz_Logo_23.png" alt="blitz slag logo" />
+                </div>
             </section>
             <section className="landingPg2" data-aos='fade-up-right' ref={landingPg2}>
                 <div className="landingPg2left">
@@ -35,9 +37,12 @@ function MainPage() {
                             as we treat you to a panoply of performances and competitions set
                             in the heart of Rajasthan. Padhaaro mhaare Bollywood!
                         </div>
-                        <div className="landingPg3b1">20K+ FOOTBALL</div>
-                        <div className="landingPg3b2">62+ EVENTS</div>
-                        <div className="landingPg3b3">25+ COLLEGES</div>
+                        <div className="landingPg3footer">
+                            <div className="landingPg3b1">20K+ FOOTBALL</div>
+                            <div className="landingPg3b2">62+ EVENTS</div>
+                            <div className="landingPg3b3">25+ COLLEGES</div>
+                        </div>
+
                     </div>
                     <div className="landingPg3right"></div>
                 </div>
