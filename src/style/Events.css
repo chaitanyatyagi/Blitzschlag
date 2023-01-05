@@ -290,6 +290,13 @@
 	width: 90%;
 	margin-bottom: 10px;
 }
+.events-form-check-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+}
 .row-wrapper-4 {
 	justify-content: space-evenly;
 	margin-top: 20px;
@@ -311,7 +318,7 @@
 	font-family: "Inter";
 	padding-left: 10px;
 	color: #333333;
-	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.75);
 }
 .events-selector-label {
 	display: flex;

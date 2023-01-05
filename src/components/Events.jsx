@@ -27,6 +27,10 @@ export default function Events(props) {
 		college: "",
 		blitzID: "",
 		email: "",
+		phone: "",
+		teamName: "",
+		Nmembers: "",
+		teamLeader: true,
 	});
 	const [activeEvent, setActiveEvent] = React.useState(1);
 	const [dispForm, setDispForm] = React.useState(false);
@@ -52,7 +56,7 @@ export default function Events(props) {
 		setFormData((prev) => {
 			return {
 				...prev,
-				[e.target.name]: e.target.value,
+				[e.target.name]: e.target.type === "checkbox" ? e.target.checked : e.target.value,
 			};
 		});
 	}
@@ -88,6 +92,10 @@ export default function Events(props) {
 			college: "",
 			blitzID: "",
 			email: "",
+			phone: "",
+			teamName: "",
+			Nmembers: "",
+			teamLeader: true,
 		});
 		setDispForm(false);
 	}
@@ -97,6 +105,10 @@ export default function Events(props) {
 			college: "",
 			blitzID: "",
 			email: "",
+			phone: "",
+			teamName: "",
+			Nmembers: "",
+			teamLeader: true,
 		});
 		setDispForm(false);
 	}
@@ -201,14 +213,14 @@ export default function Events(props) {
 								<div className="row-wrapper-1">
 									<input
 										className="events-form-text-input"
-										placeholder="Name"
+										placeholder="Name of Participant"
 										name="name"
 										value={formData.name}
 										onChange={handleChange}
 									/>
 									<input
 										className="events-form-text-input"
-										placeholder="College"
+										placeholder="Name of institute"
 										name="college"
 										value={formData.college}
 										onChange={handleChange}
@@ -230,6 +242,45 @@ export default function Events(props) {
 										onChange={handleChange}
 									/>
 								</div>
+								<div className="row-wrapper-2">
+									<input
+										className="events-form-text-input"
+										placeholder="Phone Number"
+										name="phone"
+										type="tel"
+										value={formData.phone}
+										onChange={handleChange}
+									/>
+									<input
+										className="events-form-text-input"
+										placeholder="Name of Team"
+										name="teamName"
+										value={formData.teamName}
+										onChange={handleChange}
+									/>
+								</div>
+								<div className="row-wrapper-2">
+									<input
+										className="events-form-text-input"
+										placeholder="No. of Memebers"
+										name="Nmembers"
+										type="number"
+										value={formData.Nmembers}
+										onChange={handleChange}
+									/>
+									<div className="events-form-check-row">
+										<label htmlFor="teamLeader" className="events-labels">
+											Are you the Team Leader ?
+										</label>
+										<input
+											type="checkbox"
+											name="teamLeader"
+											checked={formData.teamLeader}
+											onChange={handleChange}
+										/>
+									</div>
+								</div>
+
 								{/* <div className="events-selector-label">
 										<label htmlFor="members" className="events-labels">
 											No of Members
@@ -257,7 +308,7 @@ export default function Events(props) {
 								<div className="row-wrapper-4">
 									<input
 										className="events-form-text-input"
-										value={event.price ? event.price : "--"}
+										value={`Price : ${event.price ? event.price : "--"}`}
 									/>
 									<Link
 										className="event-link-remover event-card-register-link"
