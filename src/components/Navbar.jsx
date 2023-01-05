@@ -48,7 +48,7 @@ function Navbar() {
                                 </NavDropdown.Item>
                                 <NavDropdown.Item><Link className="text-white">SPONSORS</Link></NavDropdown.Item>
                                 <NavDropdown.Item><Link className="text-white">MERCHANDISE</Link></NavDropdown.Item>
-                                <NavDropdown.Item><Link className="text-white">OUT TEAM</Link></NavDropdown.Item>
+                                <NavDropdown.Item><Link to="/contactus" className="text-white">OUT TEAM</Link></NavDropdown.Item>
                             </NavDropdown>
                         </div>
                         <div>
