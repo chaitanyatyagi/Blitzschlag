@@ -25,7 +25,7 @@ function Navbar() {
     return (
         <>
 
-            <div className="main_nav">
+            <div className="main_nav" onBlur={shownavlinks}>
                 <div className="leftlogo"><div className="leftlogoins"></div></div>
                 <div className="nav_links">
                     <div className="menubar" id="menu">
@@ -64,26 +64,6 @@ function Navbar() {
                                 <NavDropdown.Item href="#action/3.3"><Link className="text-white">EVENTS</Link></NavDropdown.Item>
                             </NavDropdown>
                         </div>
-                        {/* <div className="dropdown">
-                            <button className="dropbtn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                EVENTS
-                            </button>
-                            <ul className="dropdown-menu bg-dark">
-                                <li className="dropdown-item"><Link className="text-white">FLAGSHIP EVENTS</Link></li>
-                                <li className="dropdown-item"><Link className="text-white">EVENTS</Link></li>
-                            </ul>
-                        </div>
-                        <div className="dropdown">
-                            <button className="dropbtn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                MORE
-                            </button>
-                            <ul className="dropdown-menu bg-dark">
-                                <li className="dropdown-item"><Link className="text-white">HOSPITALITY</Link></li>
-                                <li className="dropdown-item"><Link className="text-white">SPONSORS</Link></li>
-                                <li className="dropdown-item"><Link className="text-white">MERCHANDISE</Link></li>
-                                <li className="dropdown-item"><Link className="text-white">OUT TEAM</Link></li>
-                            </ul>
-                        </div> */}
 
                         <div>
                             <Link to="/register" className="register">REGISTER</Link>
