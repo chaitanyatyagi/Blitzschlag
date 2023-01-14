@@ -8,6 +8,7 @@ import Registration from './components/Registration';
 import Contact from './components/Contact'
 import Sponsars from './components/Sponsars';
 import Preloader from './components/Preloader';
+import Brandambastor from './components/Brandambastor';
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -26,6 +27,7 @@ function App() {
             <Route path='/register' element={<Registration />} />
             <Route path='/profile' element={<Profile />} />
             <Route path='/contactus' element={<Contact />} />
+            <Route path='/brandambastor' element={<Brandambastor />} />
           </Routes>
           <Sponsars />
         </div>}

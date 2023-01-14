@@ -1,7 +1,7 @@
 import "../style/navbar.css"
 import { FaBars, FaWindowClose } from 'react-icons/fa'
 import { Link } from "react-router-dom"
-import React, { useState } from "react"
+import React, { useState  } from "react"
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 
@@ -22,16 +22,37 @@ function Navbar() {
         }
     }
 
+    const hidenavBar = () =>{
+        SetIsMobile(false)
+        setCanclebutton(true)
+    }
+
+    // const ref = useRef(null);
+
+    // useEffect(() => {
+    //     function handleClickOutside(event) {
+    //       if (ref.current && !ref.current.contains(event.target)) {
+    //         SetIsMobile(false)
+    //         setCanclebutton(true)
+    //       }
+    //     }
+    
+    //     document.addEventListener("mousedown", handleClickOutside);
+    //     return () => {
+    //       document.removeEventListener("mousedown", handleClickOutside);
+    //     };
+    //   }, [ref]);
+
     return (
         <>
 
-            <div className="main_nav" onBlur={shownavlinks}>
+            <div className="main_nav" onBlur={hidenavBar}>
                 <div className="leftlogo"><div className="leftlogoins"></div></div>
                 <div className="nav_links">
                     <div className="menubar" id="menu">
                         <button className='btn' onClick={() => shownavlinks()}>{cancleButton ? <FaBars /> : <FaWindowClose />}</button>
                     </div>
-                    <div className={IsMobile ? "mobile" : "laptop"}>
+                    <div className={IsMobile ? "mobile" : "laptop"} >
                         <Link to="/" className="centertabs">HOME</Link>
                         <Link to="/pronites" className="centertabs">PRONITES</Link>
                         <Link to="/announcements" className="centertabs">ANNOUNCEMENT</Link>
@@ -47,6 +68,7 @@ function Navbar() {
                                     <Link className="text-white">HOSPITALITY</Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item><Link className="text-white">SPONSORS</Link></NavDropdown.Item>
+                                <NavDropdown.Item><Link to="/brandambastor" className="text-white">Brand Ambastor</Link></NavDropdown.Item>
                                 <NavDropdown.Item><Link className="text-white">MERCHANDISE</Link></NavDropdown.Item>
                                 <NavDropdown.Item><Link to="/contactus" className="text-white">OUT TEAM</Link></NavDropdown.Item>
                             </NavDropdown>
