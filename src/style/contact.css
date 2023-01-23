@@ -17,10 +17,10 @@ font-family: 'Satisfy', cursive; */
 }
 
 .maincontainer {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    overflow-x: hidden;
     overflow-y: scroll;
+    overflow-x: hidden;
     /* z-index: 999000000; */
     background-size: cover;
     background-position: center;
@@ -39,11 +39,10 @@ font-family: 'Satisfy', cursive; */
     /* text-shadow: 4px 4px 4px #aaa; */
 }
 
-.contnav{
+.contnav {
     position: fixed;
     color: #fff;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 30vh;
     z-index: 2;
     right: 40px;
     text-align: end;
@@ -54,34 +53,46 @@ font-family: 'Satisfy', cursive; */
     cursor: pointer;
     color: white;
 }
+
 .contnav div a {
     color: white;
     font-size: 18px;
 }
-.contdetails{
+.contnav div:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.contdetails {
     display: flex;
     flex-direction: column;
-    padding-bottom: 200px;
+    padding-bottom: 170px;
+    width: 80%;
 }
 
-.subheading{
+.subheading {
     color: #fff;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-family: Raleway-Bold;
     position: relative;
-    top: 50px;
+    padding-top: 70px;
     left: 3.1vw;
+    padding-bottom: 0;
     margin: 3vw 0;
     text-align: left;
-}
-
-.cardContainer{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.teamMemb{
-    min-width: 15vw;
+.cardContainer {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* overflow-x: scroll; */
+}
+
+.teamMemb {
     min-height: 30vw;
     background-color: #fff;
     margin: 1.5vw 2vw;
@@ -91,11 +102,12 @@ font-family: 'Satisfy', cursive; */
     text-align: center;
 }
 
-.contimg{
+.contimg {
     width: 15vw;
     height: 15vw;
 }
-.memname{
+
+.memname {
     color: #2f0b2e;
     font-family: Raleway-Bold;
     text-align: center;
@@ -105,32 +117,49 @@ font-family: 'Satisfy', cursive; */
     overflow-wrap: break-word;
 }
 
-.post{
+.post {
     color: #793478;
     text-align: center;
+    text-align: center;
     padding-left: 0.2vw;
-    font-size: 1.4vw;
-    margin-left: 1vw;
-    width: 13vw;
+    font-size: 1.7vw;
     padding-right: 0.2vw;
+    overflow-wrap: break-word;
     font-style: italic;
     text-overflow: clip;
     overflow-wrap: break-word;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 22px;
 }
 
-/* @media(max-width: 600px){
-    .contnav{
-        position: relative;
+@media(max-width: 800px) {
+    .contnav {
         color: #fff;
-        top: 0%;
-        z-index: 2;
-        right: 40px;
-        text-align: end;
+        position: relative;
+        top: 12vh;
+        right: 0;
+        margin-left: 2vw;
+        text-align: left;
+        margin: auto;
     }
-} */
+    .teamMemb{
+        padding: 5px;
+        width: 120px;
+    }
+    .subheading{
+        font-size: 14px;
+    }
+    .contdetails {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2vw;
+    }
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+    }
+}

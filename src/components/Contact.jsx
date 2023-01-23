@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../style/contact.css'
 import Contactdetails from './ContactApi'
-import { FaRegWindowClose, FaWhatsappSquare, FaInstagramSquare } from 'react-icons/fa';
+import { FaWhatsappSquare, FaInstagramSquare } from 'react-icons/fa';
 
 export default function Contact() {
 
