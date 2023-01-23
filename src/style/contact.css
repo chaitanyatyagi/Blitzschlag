@@ -17,10 +17,6 @@ font-family: 'Satisfy', cursive; */
 }
 
 .maincontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -128,9 +124,13 @@ a{
     font-size: 25px;
 }
 
-@media(max-width: 1070px){
-    .maincontainer{
-        flex-direction: column;
-
+/* @media(max-width: 600px){
+    .contnav{
+        position: relative;
+        color: #fff;
+        top: 0%;
+        z-index: 2;
+        right: 40px;
+        text-align: end;
     }
-}
+} */
