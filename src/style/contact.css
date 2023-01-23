@@ -42,7 +42,7 @@ font-family: 'Satisfy', cursive; */
 .contnav {
     position: fixed;
     color: #fff;
-    top: 30vh;
+    top: 10vh;
     z-index: 2;
     right: 40px;
     text-align: end;
